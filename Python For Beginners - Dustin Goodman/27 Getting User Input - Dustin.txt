@@ -1,0 +1,7 @@
+Looking back, I realize I never covered this super important topic and am back tracking this week to cover it. We'll continue next week with our exploration into the depths of libraries. Let's get started.
+
+Let's say you're writing a Python script but you want to interact with the user using your program. How are you going to get input from this user? You don't want to have to read in a file from them because they might not follow your standards or naming schemas. What's better is to get live data from the user, but how do we do this? There are two built-in functions to Python that will do this for us: `input` and `raw_input`. Each function takes one optional parameter which is a string that acts as a prompt for the user. 
+
+Your next question might be what's the difference between these functions. The answer is simple, `raw_input` will read in all the data you input as a string whereas `input` tries to read in your input as a integer or float. If you pass a non-number to `input` it will produce a NameError and you'll have to use exception handling to prevent your program from crashing. Hence, we recommend always using `raw_input` when reading data from a user.
+
+If you recall, you have the `int`, `float` and `str` functions as well as all the string methods at your disposal so parsing out your information should be fairly simple. If you need a review of this, let us know and we'll answer those questions or point you in the right direction. Enjoy and try this week's problem for an awesome, yet easy, application of these functions.

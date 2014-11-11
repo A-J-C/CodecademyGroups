@@ -1,0 +1,9 @@
+Howdy folks,
+
+I'm going to do my best to write a weekly review of a topic in Python. I'll write a review of topic, and I want you guys to ask any questions about what I write. This will help clarify the topic and solidify it for all of you. This week we'll do a brief overview of lists.
+
+> A **list** is a Python data structure for holding information in an ordered fashion.
+
+In other languages, lists are called arrays and in some of those languages, there are requirements of what you can and cannot put into them. In Python, you can put whatever you want into a list, i.e. numbers, characters, strings, objects or other lists. Most of the time, you'll most likely store like data (i.e. just numbers or just strings) inside of a list. My favorite application of lists in Python is range lists used for loop iteration. The fastest way to create a range list is the `range()` function which can take up to 3 arguments: start point, ending point, and step size (optional). For example, `range(1,10,2)` would create a list `[1, 3, 5, 7, 9]` because it starts at 1 and ends at 10 with a step size of 2. This is just a simple number list. Another application is to create a list of different types of objects and primitives. An example would be `['hello', [1, 2, 3], 'w', 5]`. This is a list of a string, an object (lists are objects!), a character and a number. You can do various combinations of this. Python lists are also mutable meaning you can change them in place where in other languages if you wanted to change the size of a list you would have to reallocate memory in the computer. Python hides that all from you and lets you do things on the go. Handy, right?
+
+This is just a brief overview. Next week, we'll talk more about list methods and functionality. Any questions? I encourage you to ask. There is no such thing as a stupid question. ;)

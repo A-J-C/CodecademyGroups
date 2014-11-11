@@ -1,0 +1,1 @@
+httpcodeutopia.netblog20090430optimizing-javascript-for-extreme-performance-and-low-memory-consumption

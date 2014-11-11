@@ -1,0 +1,39 @@
+This is not a dating post for moderators, but just a list of all the join dates.
+
+ - Eric Weinstein **unknown**
+ - Michael Tackes **unknown** 
+ - Dustin Goodman **13th August 2012**
+ - Nico Ekkart **13th August 2012**
+ - Haley Higgins **29th August 2012**
+ - Joah Gerstenberg **29th August 2012**
+ - Edditoria **25th September 2012**
+ - Marta Chumo **25th September 2012**
+ - Roy Pierce **25th September 2012**
+ - Michael Rochlin **5th November 2012**
+ - Nick Edwards **14th March 2013**
+ - Boring **14th March 2013**
+ - Tim Saunders **19th March 2013**
+ - Daniel Seymour **19th March 2013**
+ - Alex Craig **27th March 2013**
+ - Jake Anderson **30th March 2013**
+ - Giacomo Sorbi **5th April 2013**
+ - Addison Scott **5th April 2013**
+ - Dek Dekku first seen on **5th April 2013**
+ - Judy Young **24th April 2013**
+ - Andrej Sebeny **24th May 2013**
+ - Gaurang Tandon **27th May 2013**
+ - Pedro Martins **12th June 2013**
+ - haxor789 **12th June 2013**
+ - Glenn Richards **17th June 2013**
+ - Tony Araujo **17th June 2013**
+ - Andrej Sebeny first seen on **30th June 2013**
+ - critisizing monsters **6th August 2013**
+ - Lucien Cooper **6th August 2013**
+ - Masoud Kamezi **18th September 2013**
+ - Lloan Alas **18th September 2013**
+ - tp9 **18th September 2013**
+ - Dennis **20th September 2013**
+ - Clarisse **20th September 2013**
+ - Elisha Tad **26th September 2013**
+ - Aden Fission **1st October 2013**
+ - DigiWongaDude **23rd May 2014**
