@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="519" height="357">
+	<defs>
+		<pattern id="image" height="1" width="1">
+		  <image x="0" y="0" height="360" width="576" xlink:href="https://discuss.ccautomation.gq/uploads/default/original/1X/25980eff7f0dbceaf0a229e5b8f5e0dfe9efb4f5.jpeg"></image>
+		</pattern>
+	</defs>
+	<filter id="this_image" x="0%" y="0%" width="100%" height="100%">
+        <feImage xlink:href="https://discuss.ccautomation.gq/uploads/default/original/1X/25980eff7f0dbceaf0a229e5b8f5e0dfe9efb4f5.jpeg"/>
+    </filter>
+   <path d="M519 0c-35.878 22.323-30.122 57.066-66 79.39-35.878 22.323-49.949 2.999-85.827 25.324-35.878 22.324-21.808 41.648-57.69 63.97-35.877 22.324-49.948 3.021-85.849 25.347-35.88 22.323-21.785 41.624-57.666 63.947-35.901 22.323-49.972 3.022-85.85 25.346-35.903 22.323-21.81 41.626-57.689 63.949C14.332 352.325 7.308 355.259.93 357H0V0h519z"  fill="url(#image)" />
+</svg>
