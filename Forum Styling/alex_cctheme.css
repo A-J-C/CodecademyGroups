@@ -1,0 +1,682 @@
+// COMMON
+
+/* Alex trying to reflect white on grey CC has on this page https://www.codecademy.com/account */
+
+.topic-body {
+    border: none;
+    background: white;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 10px 0 rgba(0,0,0,.15);
+    margin-left: -45px;
+    padding-right: 15px;
+    padding-left: 55px;
+}
+
+.timeline-container .topic-timeline {
+    margin-top: 15px;
+}
+
+.topic-avatar {
+    border: none;
+}
+
+.topic-avatar > a, .topic-avatar > svg {
+    padding-left: 10px;
+}
+
+.topic-avatar > .placeholder-avatar {
+    margin-left: 10px;
+}
+
+/* Experimented with making this #F7F7F7 but this looks nicer IMO (feel free to change) */
+tr, .latest-topic-list-item {
+    border-bottom: 4px solid #E9E9E9;
+}
+
+.post-notice {
+    max-width: calc(690px + 45px + 27px - 0.1em);
+    margin-bottom: 10px;
+}
+
+.suggested-topics table, .category-list, .latest-topic-list, .topic-list {
+    background: white;
+}
+
+.gap {
+    margin-bottom: 10px;
+}
+
+body {
+    background: #F7F7F7 !important;
+}
+
+/* highlighted topics */
+body .highlighted {
+    animation: background-fade-highlight 2.5s ease-out;
+}
+
+@keyframes background-fade-highlight {
+  0% {
+    background-color: dark-light-diff($tertiary, $secondary, 85%, -65%);
+  }
+  100% {
+    background-color: #FFF;
+  }
+}
+
+/* highlighted topics */
+body .moderator .highlighted {
+    animation: background-moderator-fade-highlight 2.5s ease-out;
+}
+
+@keyframes background-moderator-fade-highlight {
+  0% {
+    background-color: #FFF;
+  }
+  100% {
+    background-color: #E7E4FF;
+  }
+}
+
+/* fix body issues on other pages */
+.user-main, .admin-content {
+    background: #FFF;
+    padding: 10px;
+}
+
+#user-card, #group-card {
+    border: 1px solid #CCC;
+}
+
+/* Update sub-category boxes */
+.category-box-inner {
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.15);
+    border: none !important;
+    background: #FFF;
+}
+
+.category-box-inner:hover {
+    box-shadow: -2px 8px 22px 0 rgba(0,0,0,.15);
+    transition: box-shadow .25s ease-in;
+}
+
+.category-boxes .category-box, .category-boxes-with-topics .category-box {
+    border-left-width: 0;
+    border-top-width: 6px;
+}
+
+/* Update link colours */
+
+a:active, a,
+a.hashtag, a.mention,
+.menu-panel a:visited, .menu-panel a:hover, {
+    color: #3d65c2;  
+}
+
+a:hover, a:visited,
+a.hashtag:visited, a.hashtag:hover, 
+.cooked a:visited,
+.topic-list a.title.visited:not(.badge-notification),
+.topic-list a.title:visited:not(.badge-notification),
+aside.onebox .onebox-body a[href]:visited,
+a.mention:visited, a.mention:hover {
+    color: #225470;  
+}
+
+.topic-list-item.visited a.title:not(.badge-notification) {
+    color: #919191 !important;
+}
+
+/* update staff colour previously new colour D0E2C8 */
+.moderator .topic-body {
+    background-color: #E7E4FF !important;
+}
+
+.moderator .clearfix>.topic-meta-data>.names span.user-title a {
+    background-color: inherit;
+}
+
+.moderator .regular>.cooked {
+    background-color: inherit !important;
+}
+
+/* update name and badge colour */
+.names span a, .names .fa, .moderator .clearfix>.topic-meta-data>.names span.user-title {
+    color: black !important;
+}
+
+/* update list of badges */
+.badge-card.large .badge-contents, .badge-group-list .badge-contents {
+    background: white;
+}
+
+.badge-card.large, .badge-group-list .badge-card {
+    border: none;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.15);
+}
+
+/* admins page */
+.user-info.small {
+    width: 300px;
+    margin-right: 13px;
+    padding: 10px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.15);
+    background: white;
+}
+
+table.group-members .user-info.small.ember-view,
+.summary-user-list .user-info {
+    box-shadow: none;
+}
+
+/* badge change */
+.user-info.medium {
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.15);
+    background: #FFF;
+}
+
+.user-info.medium .user-image {
+    padding: 10px 0 0 10px;
+}
+
+.badge-info.user-info.medium .user-detail {
+    padding-top: 10px;
+}
+
+/* change banner */
+#banner {
+    margin-bottom: 30px;
+}
+
+/* make tables user's post look normal */
+.topic-body tr {
+    border-bottom: 1px solid #e9e9e9;
+}
+
+/* move little blue dot */
+.read-state {
+    margin-right: 10px;
+}
+
+/* replies customisation */
+.embedded-posts.bottom, .embedded-posts.bottom .row .topic-avatar, .embedded-posts.bottom .row .topic-body {
+    border: none;
+}
+
+/* flags page */
+.reviewable-item {
+    background: white;
+    padding: 15px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.15);
+    border: none;
+}
+
+/* Settings on category */
+#bulk-select {
+    background-color: inherit;
+}
+
+/* sub cat bannet */
+a.mention, a.mention-group {
+    background: inherit;
+}
+
+/* topic side bar */
+.timeline-container .topic-timeline .timeline-handle {
+    background-color: #141C3A; 
+}
+
+.timeline-container .topic-timeline .timeline-scrollarea {
+    border-color: #141C3A; 
+}
+
+#topic-progress {
+    height: 41px;
+}
+
+/* spinner */
+.spinner {
+    padding: 0 !important;
+}
+
+/* presence users */
+.presence-users {
+    background-color: #F7F7F7 !important;
+}
+
+/* button styling */
+.btn:hover, .btn[href]:hover {
+    color: #FFF;
+    background-color: #141C3A;
+}
+
+.btn:hover .d-icon {
+    color: #FFF;
+}
+
+.btn-primary {
+    background-color: #141C3A;
+}
+
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:focus {
+    background-color: #3D65C2;
+    background-image: none;
+    outline: none;
+}
+
+.d-editor-button-bar .btn:hover,
+.d-editor-button-bar .btn:hover .d-icon, {
+    color: inherit;
+    background-color:inherit;
+}
+
+.topic-admin-popup-menu .btn:hover,
+.topic-admin-popup-menu .btn:hover .d-icon,
+.post-admin-menu .btn:hover,
+.post-admin-menu .btn:hover .d-icon {
+    color: inherit;
+    background: #E9E9E9;
+    font-weight: bold;
+}
+
+.btn-danger[href]:hover, 
+.btn-danger:hover,
+.topic-admin-popup-menu .btn-danger:hover,
+.topic-admin-popup-menu .btn-danger:hover .d-icon {
+    color: #FFF;
+    background: #DE0306;
+}
+
+/* user card fix */
+#user-card {
+    padding: 0;
+}
+
+/* 404 page */
+.page-not-found {
+    margin-top: 85px;
+}
+
+/* categories page */
+.category-list .featured-topic {
+    margin-right: 10px;
+}
+
+/* table color */
+.category-list td {
+    color: #151C3A !important;
+}
+
+/* table alignment */
+th.category span {
+    padding-left: 5px;
+}
+
+th.latest {
+    padding-left: 12px;
+}
+
+/* grid alignment */
+.category-boxes, .category-boxes-with-topics {
+    margin-left: -10px;
+    margin-right: -10px;
+    width: calc(100% + 20px);
+}
+
+.category-boxes-with-topics .category-box {
+    width: 23%;
+}
+
+/* category header banner */
+div[class^="category-title-header"] {
+    font-size: 17px;
+}
+
+div[class^="category-title-header"] img {
+    padding-left: 0 !important;
+    margin-left: -51px;
+}
+
+/* fix */
+.suggested-topics .suggested-topics-title {
+    display: inherit;
+}
+
+@media (max-width: 818px) {
+    .topic-body {
+        width: calc(100%);
+        box-sizing: border-box;
+    }
+    
+    div[class^="category-title-header"] img {
+        display: none;
+    }
+}
+
+
+
+// DESKTOP 
+
+
+@import url('https://fonts.googleapis.com/css?family=Oxygen:300,400,700');
+
+@font-face {
+    font-family: 'Oxygen Mono';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Oxygen Mono'), local('OxygenMono-Regular'), url('https://fonts.gstatic.com/s/oxygenmono/v4/BzV4DVOwAgGelLT9EC5xyo4P5ICox8Kq3LLUNMylGO4.woff2') format('woff2');
+}
+
+.topic-avatar .avatar-flair {
+    margin-right: -7px;
+    margin-bottom: -4px;
+}
+
+input {
+    font-family: "Oxygen", Helvetica, Arial, sans-serif;
+}
+
+.cooked code {
+    font-family: 'Oxygen Mono', monospace;
+}
+
+aside.onebox,
+a.mention,
+blockquote,
+aside.quote,
+aside.quote .title,
+.cooked pre,
+.cooked code {
+    background-color: #e6e7e8;
+}
+
+.topic-body,
+.topic-avatar,
+#topic-closing-info,
+hr,
+.mention,
+blockquote,
+.quote,
+aside.onebox,
+.cooked img:not(.emoji),
+.cooked pre {
+    border-color: #bcbec0 !important;
+}
+
+aside.quote,
+blockquote,
+aside.onebox,
+.cooked img:not(.emoji),
+.cooked pre {
+    border-width: 1px;
+    border-style: solid;
+}
+
+aside.quote,
+blockquote,
+aside.onebox {
+    border-left-width: 5px;
+}
+
+aside.quote blockquote {
+    border: none;
+}
+
+/*.moderator .topic-body {
+     background-color: #ffe899;
+}
+ */
+.moderator .topic-body {
+    background-color: #e6e7e8;
+}
+
+.cooked a[href] {
+    text-decoration: underline;
+}
+
+/* factoradic, just for a duration of development */
+/* .alert-too-few-topics {
+    display: none;
+} */
+
+/* factoradic, messing with header */
+.d-header .title {
+    max-height: 32px;
+    line-height: 36px;
+}
+
+.d-header {
+    box-shadow: none;
+    border-bottom: 1px solid #E9EAEA;
+    padding-top: 0;
+    height: auto;
+}
+
+/* zeke added `.logo-big` 3/14/17 */
+.d-header #site-logo.logo-big {
+    max-height: 25px;
+    margin: 0 5px 0 0;
+}
+
+#topic-title h1 {
+    line-height: normal;
+}
+
+.extra-info-wrapper .topic-link {
+    line-height: normal;
+    font-size: 15px;
+}
+
+.topic-list .topic-excerpt {
+    color: #7a98a9;
+}
+
+/* factoradic, spacing between topics */
+.topic-list tbody td {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* oduffy, hide subcategories */
+.category-list .subcategories {
+    display: none;
+}
+
+/* O'Duffy nukes forces all the fonts to their lighter form */
+body {
+    font-weight: lighter;
+}
+
+/* oduffy, hide about page stats */
+section.about.stats {
+    display: none;
+}
+
+#banner {
+    width: 100%;
+    background-color: #fff;
+    box-shadow: none;
+    max-height: none;
+    padding-top: 0;
+    padding-bottom: 20px;
+}
+
+#welcome-message {
+    margin-top: 0;
+}
+
+#banner h2 {
+    font-size: 50px;
+    line-height: normal;
+    font-weight: normal;
+}
+
+#welcome-message a:link,
+#welcome-message a:hover,
+#welcome-message a:visited,
+#welcome-message a:active {
+    color: #59A1C9;
+}
+
+#welcome-message a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 480px) {
+    #banner {
+        display: none;
+    }
+}
+
+@media (min-width: 480px) {
+    #welcome-text {
+        float: left;
+        width: 61%;
+        padding-right: 2%;
+        font-weight: lighter;
+    }
+
+    #welcome-resources {
+        float: right;
+        width: 31%;
+        font-weight: lighter;
+    }
+}
+
+@media (min-width: 1200px) {
+    #circle-img-welcome {
+        background-image: url("https://s3.amazonaws.com/codecademy-images/discuss/social-avatar-circle%402x.png");
+        background-size: cover;
+        border: 32px solid #f4f7f8;
+        border-radius: 250px;
+        float: left;
+        margin: 0;
+        position: relative;
+        height: 175px;
+        width: 175px
+    }
+
+    #welcome-message {
+        float: right;
+        width: 74%;
+        margin-top: 15px;
+    }
+}
+
+/* oduffy, make category titles lighter */
+.category-list tbody .category h3 a[href] {
+    font-weight: lighter;
+}
+
+/* oduffy, make user names lighter */
+.names span a {
+    font-weight: lighter;
+}
+
+/* oduffy, make topic name in condensed form lighter (once you scroll down page) */
+.extra-info-wrapper .topic-link {
+    font-weight: lighter;
+}
+
+/* oduffy, trying to make topic title in full form lighter */
+a.fancy-title {
+    font-weight: lighter;
+}
+
+/* oduffy, make category name in topic view lighter */
+.badge-category .clear-badge {
+    font-weight: lighter;
+}
+
+/* oduffy, fix background color */
+body {
+    background-color: white;
+}
+
+/* oduffy, fix oval notification alerts */
+.d-header .icons,
+.badge-notification {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+/* oduffy, light font for on-topic category display */
+.badge-wrapper.bullet span.badge-category {
+    font-weight: lighter;
+}
+
+/* oduffy, fix category description color */
+.category-list td {
+    color: #204056;
+}
+
+/* oduffy, fix category description weight */
+.category-description {
+    font-weight: lighter;
+}
+
+/* Menu Panel */
+.menu-panel.slide-in {
+    max-height: 90vh;
+}
+
+.menu-panel.slide-in .panel-body-contents.clearfix {
+    padding-bottom: 10px;
+}
+
+
+
+// MOBILE
+
+.topic-body {
+    margin-left: 0;
+    padding: 15px;
+}
+
+.topic-avatar {
+    margin-top: 10px;
+}
+
+/* images */
+
+.cooked img:not(.thumbnail) {
+    max-width: 100% !important;
+    height: auto;
+}
+
+/* correct padding for header */
+
+#main-outlet {
+    padding-top: 5rem;
+}
+
+.category-header #main-outlet {
+    padding-top: 0 !important;
+}
+
+.mobile-view .category-boxes .category-box, .mobile-view .category-boxes-with-topics .category-box {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.category-topic-link.ember-view .num.posts .topic-post-badges {
+    right: 5px;
+    position: absolute;
+}
+
+.category-list-item {
+    margin-bottom: 0;
+}
+
+.category-topic-link td.main-link {
+    width: 90%;
+}
+
+.category-topic-link td.num.posts {
+    text-align: right;
+    position: absolute;
+    right: 2px;
+    width: auto !important;
+}
